@@ -1,0 +1,42 @@
+{
+  "name": "mag-colored-output",
+  "version": "0.1.0",
+  "description": "Transform stream which adds information about process",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahnunchik/mag-colored-output.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "mag",
+    "logger",
+    "logging",
+    "log",
+    "facade",
+    "console",
+    "collored",
+    "colors",
+    "chalk"
+  ],
+  "author": {
+    "name": "Eugeny Vlasenko",
+    "email": "mahnunchik+mag@gmail.com",
+    "url": "http://mahnunchik.tumblr.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.4.0",
+    "readable-stream": "^1.1.12"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2",
+    "jshint": "^2.5.0"
+  }
+}
