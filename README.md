@@ -6,7 +6,7 @@
 
 ## Installation
 
-It makes sense to use `mag-format-message` with `mag-hub` and for example `mag-format-message`. 
+It makes sense to use `mag-colored-output` with `mag-hub` and for example `mag-format-message`. 
 
 ```
 $ npm install mag-colored-output mag-format-message mag-hub --save
