@@ -11,7 +11,7 @@ var severityNames = {
   WARNING: 'WARN',
   NOTICE: 'NOTICE',
   INFORMATIONAL: 'INFO',
-  DEBUG: 'DENUG'
+  DEBUG: 'DEBUG'
 };
 
 var colors = [
