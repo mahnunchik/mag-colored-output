@@ -1,4 +1,13 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: mahnunchik@gmail.com
+  api_key:
+    secure: ZNxCBh6GNBqxigquLCMspVDRIoszkczbfkP9yZ7Jjfp9VKpoWhWD3qWHx4b3ZxDsCm3y9aaNh5BFrrvK8EiIMShPH7xZHqMAw37yL+itYq49rPRJHmBjjClTIwbze/C1QQ3NKvcANcpJ1N2qddNB1VJkhPa3iQsKEEVzZnj/w9M=
+  on:
+    tags: true
+    repo: mahnunchik/mag-colored-output
+    all_branches: true

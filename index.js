@@ -14,6 +14,17 @@ var severityNames = [
   'DEBUG'
 ];
 
+var severityColors = [
+  'magenta',
+  'red',
+  'red',
+  'red',
+  'yellow',
+  'blue',
+  'green',
+  'cyan'
+];
+
 var colors = [
   'green',
   'magenta',
@@ -45,6 +56,7 @@ module.exports = function() {
 
   stream._transform = function(data, encoding, cb) {
     var severity = severityNames[data.severity] || 'DEBUG';
+    var severityColor = severityColors[data.severity] || 'white';
     var timestamp = data.timestamp || new Date();
     var message = data.message || 'message not set ' + util.inspect(data);
 
@@ -66,7 +78,7 @@ module.exports = function() {
     }
 
 
-    str += ' ' + chalk.bold(severity) + ' ' + message + '\n';
+    str += ' ' + chalk[severityColor].bold(severity) + ' ' + message + '\n';
 
     cb(null, str);
   };
