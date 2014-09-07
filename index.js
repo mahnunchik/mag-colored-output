@@ -48,7 +48,7 @@ module.exports = function() {
     var timestamp = data.timestamp || new Date();
     var message = data.message || 'message not set ' + util.inspect(data);
 
-    var str = timestamp.toLocaleTimeString();
+    var str = timestamp.toLocaleString();
 
     if (data.hostname) {
       str += ' ' + data.hostname;

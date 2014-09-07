@@ -32,7 +32,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^0.5.0",
-    "readable-stream": "^1.1.12"
+    "readable-stream": "^1.1.13"
   },
   "devDependencies": {
     "chai": "^1.9.1",
