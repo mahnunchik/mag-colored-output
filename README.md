@@ -24,6 +24,10 @@ hub.pipe(format())
   .pipe(process.stdout);
 ```
 
+## Note
+
+`mag-colored-output` version 1.0.0 and greater compatible with [mag](https://github.com/mahnunchik/mag) version greater than 0.9.0
+
 ## License
 
-MIT
+[MIT](https://github.com/mahnunchik/mag-colored-output/blob/master/LICENSE)
