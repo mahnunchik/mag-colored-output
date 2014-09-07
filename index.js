@@ -3,16 +3,16 @@ var Transform = require('readable-stream/transform');
 var chalk = require('chalk');
 var util = require('util');
 
-var severityNames = {
-  EMERGENCY: 'PANIC',
-  ALERT: 'ALERT',
-  CRITICAL: 'CRIT',
-  ERROR: 'ERROR',
-  WARNING: 'WARN',
-  NOTICE: 'NOTICE',
-  INFORMATIONAL: 'INFO',
-  DEBUG: 'DEBUG'
-};
+var severityNames = [
+  'PANIC',
+  'ALERT',
+  'CRIT',
+  'ERROR',
+  'WARN',
+  'NOTICE',
+  'INFO',
+  'DEBUG'
+];
 
 var colors = [
   'green',

@@ -1,4 +1,4 @@
-# mag-colored-output [![Build Status](https://travis-ci.org/mahnunchik/mag-colored-output.svg)](https://travis-ci.org/mahnunchik/mag-colored-output)
+# mag-colored-output [![Build Status](https://travis-ci.org/mahnunchik/mag-colored-output.svg)](https://travis-ci.org/mahnunchik/mag-colored-output) [![Dependency Status](https://gemnasium.com/mahnunchik/mag-colored-output.svg)](https://gemnasium.com/mahnunchik/mag-colored-output)
 
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS
 
