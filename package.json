@@ -1,6 +1,6 @@
 {
   "name": "mag-colored-output",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform stream that makes collored message from log object",
   "repository": {
     "type": "git",
