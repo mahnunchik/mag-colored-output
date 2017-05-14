@@ -1,5 +1,7 @@
 # mag-colored-output [![Build Status](https://travis-ci.org/mahnunchik/mag-colored-output.svg)](https://travis-ci.org/mahnunchik/mag-colored-output) [![Dependency Status](https://gemnasium.com/mahnunchik/mag-colored-output.svg)](https://gemnasium.com/mahnunchik/mag-colored-output)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/mag-colored-output.svg)](https://greenkeeper.io/)
+
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS
 
 `mag-colored-output` is transform stream that makes collored message from log object.
